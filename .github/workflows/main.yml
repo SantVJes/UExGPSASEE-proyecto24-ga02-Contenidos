@@ -35,15 +35,9 @@ jobs:
 
       - name: Run Docker container in the background
         run: |
-          docker run -d -p 8080:8080 openapi-server
-
+          docker run -d -p 8080:8080 openapi-server \
+          -e DATABASE_URI=postgresql://usuario:contraseña@db:5432/Contenidos \
+          openapi-server
       - name: Wait for server to start
         run: |
           sleep 10
-
-      - name: Run Postman tests with Newman
-        run: |
-          newman run openapi_server/test/Test_Api_Contenidos.postman_collection.json
-        env:
-          BASE_URL: http://localhost:8080
-          

@@ -134,7 +134,7 @@ class Contenidos(db.Model):
 #         :type id_contenido: int
 #         """
 
-#         self._id_contenido = id_contenido
+#        
 
 #     @property
 #     def titulo(self) -> str:
@@ -157,7 +157,7 @@ class Contenidos(db.Model):
 #         :type titulo: str
 #         """
 
-#         self._titulo = titulo
+#   
 
 #     @property
 #     def tipo(self) -> str:
@@ -186,7 +186,7 @@ class Contenidos(db.Model):
 #                 .format(tipo, allowed_values)
 #             )
 
-#         self._tipo = tipo
+#       
 
 #     @property
 #     def sinopsis(self) -> str:
