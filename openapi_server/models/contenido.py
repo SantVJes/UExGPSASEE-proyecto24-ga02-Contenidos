@@ -232,7 +232,7 @@ class Contenidos(db.Model):
 #         :type duracion: int
 #         """
 
-#         self._duracion = duracion
+#       
 
 #     @property
 #     def temporadas(self) -> List[TemporadasInner]:
