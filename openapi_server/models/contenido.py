@@ -134,7 +134,7 @@ class Contenidos(db.Model):
 #         :type id_contenido: int
 #         """
 
-#         self._id_contenido = id_contenido
+#        
 
 #     @property
 #     def titulo(self) -> str:
