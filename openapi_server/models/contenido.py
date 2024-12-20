@@ -186,7 +186,7 @@ class Contenidos(db.Model):
 #                 .format(tipo, allowed_values)
 #             )
 
-#         self._tipo = tipo
+#       
 
 #     @property
 #     def sinopsis(self) -> str:
