@@ -42,9 +42,9 @@ El **Microservicio de Contenidos** es una solución diseñada para gestionar efi
    Usando el comportamiento de los usuarios y sus preferencias, la API de contenidos trabaja junto con el microservicio de recomendaciones para sugerir contenido relevante basado en los intereses del usuario. Estas recomendaciones son dinámicas y se ajustan a medida que los usuarios interactúan con la plataforma.
 
 ---
-## 📃 Más Información sobre el Método de Desarrollo
+## 📃 Más Información sobre el Método de Desarrollo sobre La Refactorizacion
 
-[Infome de la Tercera Entrega](https://github.com/UExGPSASEE/proyecto24-ga02/wiki/🗃%EF%B8%8FInforme-de--Tercera-entrega)
+[Infome de la Cuarta Entrega sonar cloud](https://github.com/UExGPSASEE/proyecto24-ga02/wiki/📡-Entrega-Trabajo-4:-SonarCloud)
 
 ## Requisitos  
 Python 3.5.2 o superior  
